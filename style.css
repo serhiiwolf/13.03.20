@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 .people_say{
 	width: 100%;
@@ -32,4 +33,86 @@
 }
 .comment1 p,.comment2 p,.comment3 p,.comment4 p{
 	color: grey;
+
+	font-family: 'Roboto Mono', monospace;
+}
+footer{
+	color:white;
+	width: 100%;
+	height: 55vh;
+}
+.buttons_footer{
+	width: 100%;
+	height: 5vh;
+	  background-image: linear-gradient(to top, #145AB8 50%, white  50%);
+	  display: grid;
+	  grid-template-columns:1.5fr 1.5fr 2fr 5fr;
+	  grid-template-rows: 1fr;  
+	  grid-gap: 40px;
+}
+#first{
+	border-radius: 100px 0 0 100px ;
+	  background-image: linear-gradient(to right, #347BDA , white  );
+	border:0px solid;
+	grid-column: -1/-2;
+}
+#first p{
+	padding: 20px;
+	padding-left: 40px;
+}
+#second{
+	border-radius: 100px;
+	background: #347BDA;
+	border:0px solid;
+	grid-column: -2/-3;
+}
+#third{
+	border-radius: 100px;
+	background: #347BDA;
+	border:0px solid;
+	grid-column: -3/-4;
+}
+.write_footer{
+	background: #145AB8;
+	width: 100%;
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 1.7fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 40px;
+	padding: 80px;
+}
+.write{
+	width: 100%;
+	height:100%;
+}
+.inputs{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 2fr;
+}
+#input{
+	border:0px solid;
+	background: #145AB8;
+	border-bottom: 3px  solid white;
+	color: white;
+}
+#inputlast{
+	grid-column: 1/-1;
+	grid-row:-1/-2; 
+	border:0px solid;
+	background: #145AB8;
+	border-bottom: 3px  solid white;
+	color: white;
+}
+.info{
+	display: flex;
+	justify-content: left;
+	align-content: right;
+	flex-direction: column;
+	padding-top: 10%;
+
 }
